@@ -8,7 +8,7 @@ def primary():
    f.close()
    lst = len(quotes)-1
    rnd = random.randint(0,lst)
-
+   print(rnd)
    print(quotes[rnd])
 
 if __name__== "__main__":
